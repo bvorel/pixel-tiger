@@ -1,8 +1,8 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 323.468 108.087" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="none" width="323.468" height="108.087" overflow="visible" style="display: block;" viewBox="0 0 323.468 108.087" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Post">
-<path id="Vector" d="M62.7393 2.00003L74.2803 13.541V69.1035L62.7383 80.6455H29.7764V106.072H2V2.00003H62.7393ZM29.7764 59.2032H46.4893V29.7764H29.7764V59.2032Z" fill="var(--fill-0, #302E26)" stroke="var(--stroke-0, #302E26)" stroke-width="4"/>
-<path id="Vector_2" d="M156.682 2.00016V106.072H84.4014V2.00016H156.682ZM112.178 78.2814H128.891V29.7765H112.178V78.2814Z" fill="var(--fill-0, #302E26)" stroke="var(--stroke-0, #302E26)" stroke-width="4"/>
-<path id="Vector_3" d="M239.082 2V27.8076H194.578V40.5527H239.082V106.087H166.802V80.2803H211.307V67.5352H166.802V2H239.082Z" fill="var(--fill-0, #302E26)" stroke="var(--stroke-0, #302E26)" stroke-width="4"/>
-<path id="Vector_4" d="M321.468 2.00016V29.7912H302.391V106.072H268.266V29.7912H249.188V2.00016H321.468Z" fill="var(--fill-0, #302E26)" stroke="var(--stroke-0, #302E26)" stroke-width="4"/>
+<path id="Vector" d="M62.7393 2.00003L74.2803 13.541V69.1035L62.7383 80.6455H29.7764V106.072H2V2.00003H62.7393ZM29.7764 59.2032H46.4893V29.7764H29.7764V59.2032Z" fill="#302E26" stroke="#302E26" stroke-width="4"/>
+<path id="Vector_2" d="M156.682 2.00016V106.072H84.4014V2.00016H156.682ZM112.178 78.2814H128.891V29.7765H112.178V78.2814Z" fill="#302E26" stroke="#302E26" stroke-width="4"/>
+<path id="Vector_3" d="M239.082 2V27.8076H194.578V40.5527H239.082V106.087H166.802V80.2803H211.307V67.5352H166.802V2H239.082Z" fill="#302E26" stroke="#302E26" stroke-width="4"/>
+<path id="Vector_4" d="M321.468 2.00016V29.7912H302.391V106.072H268.266V29.7912H249.188V2.00016H321.468Z" fill="#302E26" stroke="#302E26" stroke-width="4"/>
 </g>
 </svg>

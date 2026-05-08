@@ -1,7 +1,7 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 81.9268 74.5866" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="none" width="81.9268" height="74.5866" overflow="visible" style="display: block;" viewBox="0 0 81.9268 74.5866" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group">
-<path id="Vector" d="M1.14441e-05 24.8927L24.8927 24.8927L24.8927 0L1.14441e-05 0L1.14441e-05 24.8927Z" fill="var(--fill-0, #F5EFE3)"/>
-<path id="Vector_2" d="M38.4297 74.5864H63.3224L63.3224 12.4537H38.4297L38.4297 74.5864Z" fill="var(--fill-0, #F5EFE3)"/>
-<path id="Vector_3" d="M19.7941 37.2856V49.7397L81.9268 49.7397V37.2856H19.7941Z" fill="var(--fill-0, #F5EFE3)"/>
+<path id="Vector" d="M1.14441e-05 24.8927L24.8927 24.8927L24.8927 0L1.14441e-05 0L1.14441e-05 24.8927Z" fill="#F5EFE3"/>
+<path id="Vector_2" d="M38.4297 74.5864H63.3224L63.3224 12.4537H38.4297L38.4297 74.5864Z" fill="#F5EFE3"/>
+<path id="Vector_3" d="M19.7941 37.2856V49.7397L81.9268 49.7397V37.2856H19.7941Z" fill="#F5EFE3"/>
 </g>
 </svg>

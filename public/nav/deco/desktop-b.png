@@ -1,6 +1,6 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 60.9719 60.958" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="none" width="60.9719" height="60.958" overflow="visible" style="display: block;" viewBox="0 0 60.9719 60.958" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group">
-<path id="Vector" d="M0 30.4791L0 60.9577H30.4787L30.4787 30.4791L0 30.4791Z" fill="var(--fill-0, #F5EFE3)"/>
-<path id="Vector_2" d="M30.4931 0L30.4931 30.4788L60.9719 30.4788V0L30.4931 0Z" fill="var(--fill-0, #F5EFE3)"/>
+<path id="Vector" d="M0 30.4791L0 60.9577H30.4787L30.4787 30.4791L0 30.4791Z" fill="#F5EFE3"/>
+<path id="Vector_2" d="M30.4931 0L30.4931 30.4788L60.9719 30.4788V0L30.4931 0Z" fill="#F5EFE3"/>
 </g>
 </svg>
