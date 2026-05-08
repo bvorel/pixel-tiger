@@ -2,8 +2,27 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import PixelTigerLogo from "./PixelTigerLogo";
+
+function PixelIcon() {
+  return (
+    <div className="h-[14px] w-[15px] overflow-hidden relative shrink-0">
+      <div className="absolute inset-[66.61%_0_0_69.61%]">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src="/nav/pixel-v1.png" />
+      </div>
+      <div className="absolute inset-[0_46.88%_16.68%_22.73%]">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src="/nav/pixel-v2.png" />
+      </div>
+      <div className="absolute bottom-1/2 flex items-center justify-center left-0 right-[24.18%] top-[33.32%]" style={{ containerType: "size" } as React.CSSProperties}>
+        <div className="flex-none h-[100cqw] rotate-90 w-[100cqh]">
+          <div className="relative size-full">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src="/nav/pixel-v3.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -54,7 +73,7 @@ export default function Nav() {
         {/* Logo top-left */}
         <div className="p-6 flex-shrink-0">
           <Link href="/" onClick={() => setOpen(false)}>
-            <PixelTigerLogo variant="dark" className="h-17.75 md:h-22.25 w-auto" />
+            <PixelTigerLogo variant="dark" className="h-[71px] md:h-[89px] w-auto" />
           </Link>
         </div>
 
@@ -71,43 +90,46 @@ export default function Nav() {
 
         {/* Mobile menu items */}
         <nav className="md:hidden flex-1 flex flex-col justify-end px-6 pb-8">
-          <div className="flex flex-col gap-7.5 mb-7.5">
+          <div className="flex flex-col gap-[30px] mb-[30px]">
             <div>
-              <Image src="/nav/mobile/production.png" alt="Production" width={297} height={40} style={{ height: "40px", width: "auto" }} />
+              <img src="/nav/mobile/production.png" alt="Production" style={{ height: "40px", width: "auto" }} />
             </div>
-            <div className="flex items-center gap-1.5">
-              <Image src="/nav/mobile/social.png" alt="Social" width={170} height={40} style={{ height: "40px", width: "auto" }} />
-              <Image src="/nav/deco/mobile-sm.png" alt="" width={7} height={7} style={{ height: "7px", width: "auto" }} />
-            </div>
-            <div className="flex items-center gap-1.5">
-              <Image src="/nav/mobile/digital.png" alt="Digital" width={193} height={40} style={{ height: "40px", width: "auto" }} />
-              <Image src="/nav/deco/mobile-md.png" alt="" width={19} height={17} style={{ height: "17px", width: "auto" }} />
-            </div>
-            <div>
-              <Image src="/nav/mobile/photography.png" alt="Photography" width={333} height={40} style={{ height: "40px", width: "auto" }} />
-            </div>
-            <div className="flex flex-col gap-2.5">
-              <div className="flex items-end gap-1.5">
-                <Image src="/nav/mobile/post.png" alt="Post" width={120} height={40} style={{ height: "40px", width: "auto" }} />
-                <Image src="/nav/deco/mobile-lg.png" alt="" width={23} height={21} style={{ height: "21px", width: "auto" }} />
+            <div className="flex items-center gap-[6px]">
+              <img src="/nav/mobile/social.png" alt="Social" style={{ height: "40px", width: "auto" }} />
+              <div className="rotate-180">
+                <img src="/nav/deco/mobile-sm.png" alt="" style={{ height: "7px", width: "auto" }} />
               </div>
-              <Image src="/nav/mobile/post-production.png" alt="Production" width={297} height={40} style={{ height: "40px", width: "auto" }} />
+            </div>
+            <div className="flex items-center gap-[6px]">
+              <img src="/nav/mobile/digital.png" alt="Digital" style={{ height: "40px", width: "auto" }} />
+              <img src="/nav/deco/mobile-md.png" alt="" style={{ height: "17px", width: "auto" }} />
             </div>
             <div>
-              <Image src="/nav/mobile/print.png" alt="Print" width={145} height={40} style={{ height: "40px", width: "auto" }} />
+              <img src="/nav/mobile/photography.png" alt="Photography" style={{ height: "40px", width: "auto" }} />
             </div>
-            <div className="flex items-center gap-2.5">
-              <Image src="/nav/mobile/ooh.png" alt="Ooh" width={89} height={40} style={{ height: "40px", width: "auto" }} />
-              <Image src="/nav/deco/mobile-xs.png" alt="" width={17} height={17} style={{ height: "17px", width: "auto" }} />
+            <div className="flex flex-col gap-[10px]">
+              <div className="flex items-end gap-[6px]">
+                <img src="/nav/mobile/post.png" alt="Post" style={{ height: "40px", width: "auto" }} />
+                <img src="/nav/deco/mobile-lg.png" alt="" style={{ height: "21px", width: "auto" }} />
+              </div>
+              <img src="/nav/mobile/post-production.png" alt="Production" style={{ height: "40px", width: "auto" }} />
+            </div>
+            <div>
+              <img src="/nav/mobile/print.png" alt="Print" style={{ height: "40px", width: "auto" }} />
+            </div>
+            <div className="flex items-center gap-[10px]">
+              <img src="/nav/mobile/ooh.png" alt="OOH" style={{ height: "40px", width: "auto" }} />
+              <img src="/nav/deco/mobile-xs.png" alt="" style={{ height: "17px", width: "auto" }} />
             </div>
           </div>
           <Link
             href="/contact"
             onClick={() => setOpen(false)}
-            className="inline-flex items-center gap-2 bg-espresso text-orange px-6 py-4 font-black uppercase tracking-[0.75px] hover:bg-cream hover:text-espresso transition-colors"
-            style={{ fontFamily: "'greycliff-cf', sans-serif", fontSize: "18px" }}
+            className="inline-flex items-center gap-2 bg-espresso text-orange font-black uppercase tracking-[0.75px] hover:bg-cream hover:text-espresso transition-colors"
+            style={{ fontFamily: "'greycliff-cf', sans-serif", fontSize: "18px", padding: "16px 24px" }}
           >
-            Drop us a Line →
+            Drop us a Line
+            <PixelIcon />
           </Link>
         </nav>
 
@@ -124,42 +146,43 @@ export default function Nav() {
             }}
           >
             {/* Row 1: Production */}
-            <Image src="/nav/desktop/production.png" alt="Production" width={803} height={108}
+            <img src="/nav/desktop/production.png" alt="Production"
               style={{ position: "absolute", left: 0, top: 0, width: "803px", height: "108px" }} />
 
             {/* Row 2: Social + Digital */}
-            <Image src="/nav/desktop/social.png" alt="Social" width={459} height={108}
+            <img src="/nav/desktop/social.png" alt="Social"
               style={{ position: "absolute", left: "99px", top: "121px", width: "459px", height: "108px" }} />
-            <Image src="/nav/desktop/digital.png" alt="Digital" width={522} height={108}
+            <img src="/nav/desktop/digital.png" alt="Digital"
               style={{ position: "absolute", left: "710px", top: "121px", width: "522px", height: "108px" }} />
 
-            {/* Deco dot */}
-            <Image src="/nav/deco/desktop-dot.png" alt="" width={25} height={25}
-              style={{ position: "absolute", left: "20px", top: "162px", width: "25px", height: "25px" }} />
+            {/* Deco dot (rotated 180°) */}
+            <div style={{ position: "absolute", left: "20px", top: "162px", width: "25px", height: "25px", transform: "rotate(180deg)" }}>
+              <img src="/nav/deco/desktop-dot.png" alt="" style={{ width: "100%", height: "100%" }} />
+            </div>
             {/* Deco-a */}
-            <Image src="/nav/deco/desktop-a.png" alt="" width={70} height={61}
+            <img src="/nav/deco/desktop-a.png" alt=""
               style={{ position: "absolute", left: "592px", top: "146px", width: "70px", height: "61px" }} />
 
             {/* Row 3: Photography */}
-            <Image src="/nav/desktop/photography.png" alt="Photography" width={900} height={108}
+            <img src="/nav/desktop/photography.png" alt="Photography"
               style={{ position: "absolute", left: 0, top: "242px", width: "900px", height: "108px" }} />
             {/* Deco-c */}
-            <Image src="/nav/deco/desktop-c.png" alt="" width={82} height={75}
+            <img src="/nav/deco/desktop-c.png" alt=""
               style={{ position: "absolute", left: "927px", top: "259px", width: "82px", height: "75px" }} />
 
             {/* Row 4: Post Production */}
-            <Image src="/nav/desktop/post.png" alt="Post" width={323} height={108}
+            <img src="/nav/desktop/post.png" alt="Post"
               style={{ position: "absolute", left: 0, top: "363px", width: "323px", height: "108px" }} />
-            <Image src="/nav/desktop/post-production.png" alt="Production" width={803} height={108}
+            <img src="/nav/desktop/post-production.png" alt="Production"
               style={{ position: "absolute", left: "376px", top: "363px", width: "803px", height: "108px" }} />
 
             {/* Row 5: Print + OOH */}
-            <Image src="/nav/desktop/print.png" alt="Print" width={391} height={108}
+            <img src="/nav/desktop/print.png" alt="Print"
               style={{ position: "absolute", left: "494px", top: "484px", width: "391px", height: "108px" }} />
-            <Image src="/nav/desktop/ooh.png" alt="Ooh" width={241} height={108}
+            <img src="/nav/desktop/ooh.png" alt="OOH"
               style={{ position: "absolute", left: "989px", top: "484px", width: "241px", height: "108px" }} />
             {/* Deco-b */}
-            <Image src="/nav/deco/desktop-b.png" alt="" width={61} height={61}
+            <img src="/nav/deco/desktop-b.png" alt=""
               style={{ position: "absolute", left: "900px", top: "511px", width: "61px", height: "61px" }} />
 
             {/* Drop us a Line button */}
@@ -176,7 +199,8 @@ export default function Nav() {
                 top: "546px",
               }}
             >
-              Drop us a Line →
+              Drop us a Line
+              <PixelIcon />
             </Link>
           </div>
         </div>
