@@ -1,0 +1,158 @@
+{
+  "h1": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{heading.font-family}",
+      "fontSize": "{font-size.h1}",
+      "fontWeight": "{heading.font-weight}",
+      "letterSpacing": "-1px",
+      "lineHeight": "110%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "h2": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{heading.font-family}",
+      "fontSize": "{font-size.h2}",
+      "fontWeight": "{heading.font-weight}",
+      "letterSpacing": "-1px",
+      "lineHeight": "110%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "h3": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{heading.font-family}",
+      "fontSize": "{font-size.h3}",
+      "fontWeight": "{heading.font-weight}",
+      "letterSpacing": "-1px",
+      "lineHeight": "110%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "h4": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{heading.font-family}",
+      "fontSize": "{font-size.h4}",
+      "fontWeight": "{heading.font-weight}",
+      "letterSpacing": "-0.5px",
+      "lineHeight": "110%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "h5": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{heading.font-family}",
+      "fontSize": "{font-size.h5}",
+      "fontWeight": "{heading.font-weight}",
+      "letterSpacing": "-0.5px",
+      "lineHeight": "120%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "h6": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{heading.font-family}",
+      "fontSize": "{font-size.h6}",
+      "fontWeight": "{heading.font-weight}",
+      "letterSpacing": "0px",
+      "lineHeight": "120%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "p": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{paragraph.font-family}",
+      "fontSize": "{font-size.p}",
+      "fontWeight": "{paragraph.default-font-weight}",
+      "letterSpacing": "0px",
+      "lineHeight": "140%",
+      "textTransform": "none",
+      "textDecoration": "none"
+    }
+  },
+  "a": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{paragraph.font-family}",
+      "fontSize": "{font-size.p}",
+      "fontWeight": "{paragraph.default-font-weight}",
+      "letterSpacing": "0px",
+      "lineHeight": "140%",
+      "textTransform": "none",
+      "textDecoration": "underline"
+    }
+  },
+  "p .small": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{paragraph.font-family}",
+      "fontSize": "{font-size.p-small}",
+      "fontWeight": "{paragraph.default-font-weight}",
+      "letterSpacing": "0px",
+      "lineHeight": "140%",
+      "textTransform": "none",
+      "textDecoration": "none"
+    }
+  },
+  "p .large": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{paragraph.font-family}",
+      "fontSize": "{font-size.p-large}",
+      "fontWeight": "{paragraph.default-font-weight}",
+      "letterSpacing": "0px",
+      "lineHeight": "140%",
+      "textTransform": "none",
+      "textDecoration": "none"
+    }
+  },
+  "pull-quote": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{paragraph.font-family}",
+      "fontSize": "{font-size.p-large}",
+      "fontWeight": "{paragraph.italic-font-weight}",
+      "letterSpacing": "0px",
+      "lineHeight": "140%",
+      "textTransform": "none",
+      "textDecoration": "none"
+    }
+  },
+  "btn": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{btn.font-family}",
+      "fontSize": "{btn.font-size}",
+      "fontWeight": "{btn.font-weight}",
+      "letterSpacing": "0.75px",
+      "lineHeight": "100%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  },
+  "nav": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{nav.font-family}",
+      "fontSize": "{nav.font-size}",
+      "fontWeight": "{nav.font-weight}",
+      "letterSpacing": "0.75px",
+      "lineHeight": "100%",
+      "textTransform": "uppercase",
+      "textDecoration": "none"
+    }
+  }
+}

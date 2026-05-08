@@ -1,0 +1,25 @@
+{
+  "Grid": {
+    "$type": "grid",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "center",
+        "color": "#0099ff1a",
+        "gutterSize": "0px",
+        "count": "{layout-grid.column-count}",
+        "offset": "0px"
+      },
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "center",
+        "color": "#0099ff1a",
+        "gutterSize": "{grid.bootstrap-gutter}",
+        "count": "{layout-grid.column-count}",
+        "offset": "0px"
+      }
+    ]
+  }
+}

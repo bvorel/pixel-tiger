@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "main": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{disabled.text-color}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      }
+    },
+    "menu": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{orange}"
+      }
+    },
+    "menu__alt": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      },
+      "text-stroke": {
+        "$type": "color",
+        "$value": "{espresso}"
+      }
+    }
+  },
+  "btn": {
+    "orange": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{disabled.text-color}"
+      },
+      "pixel-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      }
+    },
+    "sage": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{disabled.text-color}"
+      },
+      "pixel-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{disabled.background-color}"
+      }
+    }
+  },
+  "link": {
+    "$type": "color",
+    "$value": "{disabled.text-color}"
+  }
+}

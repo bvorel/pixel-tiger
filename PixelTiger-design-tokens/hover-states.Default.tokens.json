@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "main": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{espresso}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{sage}"
+      }
+    },
+    "menu": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{espresso}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{orange}"
+      }
+    },
+    "menu__alt": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{espresso}"
+      },
+      "text-stroke": {
+        "$type": "color",
+        "$value": "{espresso}"
+      }
+    }
+  },
+  "btn": {
+    "orange": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{espresso}"
+      },
+      "pixel-color": {
+        "$type": "color",
+        "$value": "{cream}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{orange}"
+      }
+    },
+    "sage": {
+      "text-color": {
+        "$type": "color",
+        "$value": "{espresso}"
+      },
+      "pixel-color": {
+        "$type": "color",
+        "$value": "{cream}"
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{sage}"
+      }
+    }
+  },
+  "link": {
+    "$type": "color",
+    "$value": "{orange}"
+  }
+}

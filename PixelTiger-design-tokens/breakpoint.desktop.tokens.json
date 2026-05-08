@@ -1,0 +1,142 @@
+{
+  "screen-width": {
+    "$type": "dimension",
+    "$value": "1280px"
+  },
+  "screen-height": {
+    "$type": "dimension",
+    "$value": "832px"
+  },
+  "content-width": {
+    "$type": "dimension",
+    "$value": "1140px"
+  },
+  "spacing": {
+    "spacing-section": {
+      "$type": "dimension",
+      "$value": "96px"
+    },
+    "spacing-lg": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "spacing-md": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "spacing-sm": {
+      "$type": "dimension",
+      "$value": "24px"
+    }
+  },
+  "font-size": {
+    "h1": {
+      "$type": "dimension",
+      "$value": "80px"
+    },
+    "h2": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "h3": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "h4": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "h5": {
+      "$type": "dimension",
+      "$value": "26px"
+    },
+    "h6": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "p": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "p-small": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "p-large": {
+      "$type": "dimension",
+      "$value": "26px"
+    }
+  },
+  "is-mobile": {
+    "$type": "boolean",
+    "$value": false
+  },
+  "border-radius": {
+    "$type": "dimension",
+    "$value": "0px"
+  },
+  "layout-grid": {
+    "column-width": {
+      "$type": "dimension",
+      "$value": "71px"
+    },
+    "column-width_with-padding": {
+      "$type": "dimension",
+      "$value": "95px"
+    },
+    "span-columns": {
+      "span-1": {
+        "$type": "dimension",
+        "$value": "71px"
+      },
+      "span-2": {
+        "$type": "dimension",
+        "$value": "166px"
+      },
+      "span-3": {
+        "$type": "dimension",
+        "$value": "261px"
+      },
+      "span-4": {
+        "$type": "dimension",
+        "$value": "356px"
+      },
+      "span-5": {
+        "$type": "dimension",
+        "$value": "451px"
+      },
+      "span-6": {
+        "$type": "dimension",
+        "$value": "546px"
+      },
+      "span-7": {
+        "$type": "dimension",
+        "$value": "641px"
+      },
+      "span-8": {
+        "$type": "dimension",
+        "$value": "736px"
+      },
+      "span-9": {
+        "$type": "dimension",
+        "$value": "831px"
+      },
+      "span-10": {
+        "$type": "dimension",
+        "$value": "926px"
+      },
+      "span-11": {
+        "$type": "dimension",
+        "$value": "1021px"
+      },
+      "span-12": {
+        "$type": "dimension",
+        "$value": "1116px"
+      }
+    },
+    "column-count": {
+      "$type": "dimension",
+      "$value": "12px"
+    }
+  }
+}

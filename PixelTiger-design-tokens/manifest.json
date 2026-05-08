@@ -1,0 +1,75 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "brand-colors": {
+      "modes": {
+        "value": [
+          "brand-colors.value.tokens.json"
+        ]
+      }
+    },
+    "breakpoint": {
+      "modes": {
+        "desktop": [
+          "breakpoint.desktop.tokens.json"
+        ],
+        "mobile": [
+          "breakpoint.mobile.tokens.json"
+        ],
+        "desktop-xl": [
+          "breakpoint.desktop-xl.tokens.json"
+        ],
+        "tablet-p": [
+          "breakpoint.tablet-p.tokens.json"
+        ]
+      }
+    },
+    "hover-states": {
+      "modes": {
+        "Default": [
+          "hover-states.Default.tokens.json"
+        ],
+        "Hover/Active": [
+          "hover-states.Hover/Active.tokens.json"
+        ],
+        "Disabled": [
+          "hover-states.Disabled.tokens.json"
+        ]
+      }
+    },
+    "form-states": {
+      "modes": {
+        "Default/Placeholder": [
+          "form-states.Default/Placeholder.tokens.json"
+        ],
+        "Entered/Selected": [
+          "form-states.Entered/Selected.tokens.json"
+        ],
+        "Active": [
+          "form-states.Active.tokens.json"
+        ],
+        "Error": [
+          "form-states.Error.tokens.json"
+        ]
+      }
+    },
+    "base": {
+      "modes": {
+        "value": [
+          "base.value.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "effect": [
+      "effect.styles.tokens.json"
+    ],
+    "grid": [
+      "grid.styles.tokens.json"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "heading": {
+    "color": {
+      "$type": "color",
+      "$value": "{cream}"
+    },
+    "font-family": {
+      "$type": "string",
+      "$value": "Greycliff CF"
+    },
+    "font-weight": {
+      "$type": "string",
+      "$value": "Heavy"
+    },
+    "line-spacing": {
+      "$type": "dimension",
+      "$value": "120px"
+    }
+  },
+  "paragraph": {
+    "color": {
+      "$type": "color",
+      "$value": "{cream}"
+    },
+    "font-family": {
+      "$type": "string",
+      "$value": "Greycliff CF"
+    },
+    "default-font-weight": {
+      "$type": "string",
+      "$value": "Medium"
+    },
+    "bold-font-weight": {
+      "$type": "string",
+      "$value": "Heavy"
+    },
+    "italic-font-weight": {
+      "$type": "string",
+      "$value": "Medium Oblique"
+    },
+    "line-spacing": {
+      "$type": "dimension",
+      "$value": "140px"
+    }
+  },
+  "emphasis": {
+    "$type": "color",
+    "$value": "{sage}"
+  },
+  "site-background": {
+    "$type": "color",
+    "$value": "{espresso}"
+  },
+  "divider": {
+    "$type": "color",
+    "$value": "{orange}"
+  },
+  "btn": {
+    "font-family": {
+      "$type": "string",
+      "$value": "Greycliff CF"
+    },
+    "font-weight": {
+      "$type": "string",
+      "$value": "Heavy"
+    },
+    "font-size": {
+      "$type": "dimension",
+      "$value": "{font-size.p}"
+    },
+    "x-padding": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "y-padding": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "border-radius": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "border-weight": {
+      "$type": "dimension",
+      "$value": "2"
+    }
+  },
+  "card": {
+    "card-background": {
+      "$type": "color",
+      "$value": "{cream}"
+    }
+  },
+  "nav": {
+    "font-family": {
+      "$type": "string",
+      "$value": "{btn.font-family}"
+    },
+    "font-weight": {
+      "$type": "string",
+      "$value": "{btn.font-weight}"
+    },
+    "font-size": {
+      "$type": "dimension",
+      "$value": "{btn.font-size}"
+    }
+  },
+  "form": {
+    "x-padding": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "y-padding": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "border-radius": {
+      "$type": "dimension",
+      "$value": "0px"
+    }
+  },
+  "content-margin": {
+    "$type": "dimension",
+    "$value": "12px"
+  },
+  "content-gutter": {
+    "$type": "dimension",
+    "$value": "24px"
+  }
+}

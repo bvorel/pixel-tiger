@@ -1,0 +1,54 @@
+{
+  "orange": {
+    "$type": "color",
+    "$value": "#ff6222"
+  },
+  "espresso": {
+    "$type": "color",
+    "$value": "#302e26"
+  },
+  "sage": {
+    "$type": "color",
+    "$value": "#5ea288"
+  },
+  "cream": {
+    "$type": "color",
+    "$value": "#f5efe3"
+  },
+  "paper": {
+    "$type": "color",
+    "$value": "#fffef7"
+  },
+  "red": {
+    "$type": "color",
+    "$value": "#ff5e5e"
+  },
+  "3:1_contrast": {
+    "$type": "color",
+    "$value": "#949494"
+  },
+  "overlay": {
+    "dark": {
+      "$type": "color",
+      "$value": "#00000099"
+    },
+    "light": {
+      "$type": "color",
+      "$value": "#ffffff99"
+    }
+  },
+  "disabled": {
+    "text-color": {
+      "$type": "color",
+      "$value": "#545454"
+    },
+    "background-color": {
+      "$type": "color",
+      "$value": "#cccccc"
+    },
+    "border-color": {
+      "$type": "color",
+      "$value": "#999999"
+    }
+  }
+}

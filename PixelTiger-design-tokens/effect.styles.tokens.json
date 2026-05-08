@@ -1,0 +1,14 @@
+{
+  "card-shadow": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "0px",
+        "blur": "20px",
+        "spread": "0px",
+        "color": "#0000001a"
+      }
+    ]
+  }
+}

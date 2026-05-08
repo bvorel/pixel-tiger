@@ -1,0 +1,26 @@
+{
+  "border-color": {
+    "$type": "color",
+    "$value": "{sage}"
+  },
+  "border-weight": {
+    "$type": "dimension",
+    "$value": "2"
+  },
+  "background-color": {
+    "$type": "color",
+    "$value": "{espresso}"
+  },
+  "text-color": {
+    "$type": "color",
+    "$value": "{cream}"
+  },
+  "icon-color": {
+    "$type": "color",
+    "$value": "{sage}"
+  },
+  "selector-color": {
+    "$type": "color",
+    "$value": "{sage}"
+  }
+}

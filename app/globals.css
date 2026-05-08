@@ -1,26 +1,82 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url("https://use.typekit.net/kvb3qel.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Brand colors */
+  --color-espresso:        #302e26;
+  --color-cream:           #f5efe3;
+  --color-paper:           #fffef7;
+  --color-orange:          #ff6222;
+  --color-sage:            #5ea288;
+  --color-brand-red:       #ff5e5e;
+  --color-disabled-text:   #545454;
+  --color-disabled-bg:     #cccccc;
+  --color-disabled-border: #999999;
+
+  /* Fonts */
+  --font-greycliff: "greycliff-cf", sans-serif;
+  --font-inter:     "Inter", sans-serif;
+
+  /* Font sizes */
+  --font-size-p:       20px;
+  --font-size-p-large: 26px;
+  --font-size-p-small: 16px;
+
+  /* Link color */
+  --color-link: #ff6222;
+
+  /* Spacing */
+  --spacing-section: 96px;
+  --spacing-lg:      48px;
+  --spacing-md:      32px;
+  --spacing-sm:      24px;
+
+  /* Text color */
+  --text-espresso: #302e26;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #302e26;
+  color: #f5efe3;
+  font-family: "greycliff-cf", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+p  { margin: 0; }
+a  { color: inherit; text-decoration: none; }
+
+/* Heading base styles in @layer base so Tailwind utilities can override */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: #f5efe3;
+    margin: 0;
+  }
+  h1 { font-size: 80px;  letter-spacing: -1px; }
+  h2 { font-size: 64px;  letter-spacing: -1px; }
+  h3 { font-size: 40px;  letter-spacing: -1px; }
+  h4 { font-size: 32px;  letter-spacing: -0.5px; }
+  h5 { font-size: 26px;  letter-spacing: -0.5px; line-height: 1.2; }
+  h6 { font-size: 20px;  letter-spacing: 0;      line-height: 1.2; }
+
+  @media (max-width: 767px) {
+    h1 { font-size: 54px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 34px; }
+    h4 { font-size: 28px; }
+    h5 { font-size: 22px; }
+    h6 { font-size: 20px; }
+    body { font-size: 18px; }
+  }
 }
